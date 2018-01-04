@@ -2,14 +2,17 @@ import { NgModule } from '@angular/core';
 import { TestRoutingModule } from './test-routing.module';
 
 // @TODO for ng2-nvd3
-import { Test1Component } from './test1/test1.component';
+
 
 // @TODO for ngx-charts
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { Test1Component } from './test1/test1.component';
 import { Test2Component } from './test2/test2.component';
+import { Test3Component } from './test3/test3.component';
 
 // for e-charts
 import { NgxEchartsModule } from 'ngx-echarts';
+import { FrameComponent } from './frame/frame.component';
 
 @NgModule({
   imports: [
@@ -19,12 +22,15 @@ import { NgxEchartsModule } from 'ngx-echarts';
   ],
   declarations: [
     Test1Component,
-    Test2Component
+    Test2Component,
+    Test3Component,
+    FrameComponent
   ],
   exports: [
     NgxChartsModule,
     Test1Component,
     Test2Component,
+    Test3Component,
     NgxEchartsModule
   ]
 })

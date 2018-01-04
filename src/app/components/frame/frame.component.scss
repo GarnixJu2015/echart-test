@@ -1,0 +1,19 @@
+.main {
+    height: 30%;
+    display: table;
+    width: 100%;
+  }
+  .center{
+     height: 30%;
+     line-height: 200px;
+  }
+  .box {
+    display: table-cell;
+    border: solid black;
+  }
+  .sidebar {
+    width: 30%;
+    height: 200px;
+    line-height: 200px;
+    
+  }
