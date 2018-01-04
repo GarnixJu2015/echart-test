@@ -18,3 +18,9 @@
   </li>
 </ul>
 
+
+<p> test1</p>
+<button class="btn btn-outline-primary" type="button" (click)="isLoading = !isLoading">Toggle Loading</button>
+<hr>
+<div echarts [options]="options" [loading]="isLoading" theme="macarons" class="demo-chart"></div>
+
