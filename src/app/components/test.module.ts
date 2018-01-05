@@ -12,6 +12,7 @@ import { Test3Component } from './test3/test3.component';
 
 // for e-charts
 import { NgxEchartsModule } from 'ngx-echarts';
+import { Echarts } from 'echarts';
 import { FrameComponent } from './frame/frame.component';
 import { T4Component } from './t4/t4.component';
 

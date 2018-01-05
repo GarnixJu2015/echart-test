@@ -11,6 +11,7 @@ export class AppComponent {
     { name: 'test1',  route: 'test1' },
     { name: 'test2',  route: 'test2' },
     { name: 'test3',  route: 'test3' },
+    { name: 't4',  route: 't4' },
     { name: 'frame',  route: 'frame' }
   ];
 }
