@@ -1,11 +1,36 @@
 import { Component, OnInit } from '@angular/core';
+import {single, multi} from './data';
 
 @Component({
   selector: 'app-test3',
   templateUrl: './test3.component.html',
   styleUrls: ['./test3.component.css']
 })
+
 export class Test3Component implements OnInit {
+ 
+  // single: any[];
+  // multi: any[];
+
+  // view: any[] = [700, 400];
+
+  // // options
+  // showXAxis = true;
+  // showYAxis = true;
+  // gradient = false;
+  // showLegend = true;
+  // showXAxisLabel = true;
+  // xAxisLabel = 'Country';
+  // showYAxisLabel = true;
+  // yAxisLabel = 'Population';
+
+  // colorScheme = {
+  //   domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
+  // };
+
+  // // line, area
+  // autoScale = true;
+
   isLoading = false;
 
   options = {
@@ -84,10 +109,13 @@ export class Test3Component implements OnInit {
     ]
   };
 
-
-  constructor() { }
+  constructor() {
+    // Object.assign(this, {single, multi})
+  }
 
   ngOnInit() {
   }
-
+  // onSelect(event) {
+  //   console.log(event);
+  // }
 }

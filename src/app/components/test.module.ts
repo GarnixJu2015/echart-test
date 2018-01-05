@@ -13,6 +13,7 @@ import { Test3Component } from './test3/test3.component';
 // for e-charts
 import { NgxEchartsModule } from 'ngx-echarts';
 import { FrameComponent } from './frame/frame.component';
+import { T4Component } from './t4/t4.component';
 
 @NgModule({
   imports: [
@@ -24,7 +25,8 @@ import { FrameComponent } from './frame/frame.component';
     Test1Component,
     Test2Component,
     Test3Component,
-    FrameComponent
+    FrameComponent,
+    T4Component
   ],
   exports: [
     NgxChartsModule,

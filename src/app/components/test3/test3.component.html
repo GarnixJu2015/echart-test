@@ -2,6 +2,26 @@
   test3 works!
 </p>
 
+<!--
+var echarts = require('echarts');
+
+  <ngx-charts-area-chart
+[view]="view"
+[scheme]="colorScheme"
+[results]="multi"
+[gradient]="gradient"
+[xAxis]="showXAxis"
+[yAxis]="showYAxis"
+[legend]="showLegend"
+[showXAxisLabel]="showXAxisLabel"
+[showYAxisLabel]="showYAxisLabel"
+[xAxisLabel]="xAxisLabel"
+[yAxisLabel]="yAxisLabel"
+[autoScale]="autoScale"
+(select)="onSelect($event)">
+</ngx-charts-area-chart>-->
+
+
+<div echarts [options]="options" [loading]="isLoading" theme="macarons" class="demo-chart"></div>
 <button class="btn btn-outline-primary" type="button" (click)="isLoading = !isLoading">Toggle Loading</button>
 <hr>
-<div echarts [options]="options" [loading]="isLoading" theme="macarons" class="demo-chart"></div>
